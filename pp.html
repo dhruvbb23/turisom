@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tourism Booking System</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+		form {
+			width: 50%;
+			margin: 40px auto;
+			padding: 20px;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		input[type="text"], input[type="email"], input[type="number"], select {
+			width: 100%;
+			height: 40px;
+			margin-bottom: 20px;
+			padding: 10px;
+			border: 1px solid #ccc;
+		}
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<h2>Tourism Booking System</h2>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+		
+		<label for="contact">Contact Number:</label>
+		<input type="text" id="contact" name="contact" required>
+		
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+		
+		<label for="destination">Destination:</label>
+		<select id="destination" name="destination">
+
+                        
+			<option value=""><h2>Select Destination</h2></option>
+                        <option value="" style="font-weight:bold";>*Forest Adventures</b></option>
+
+			<option value="Forest advanture Yonoyama">Forest advanture Yonoyama</option>
+			<option value="Forest advanture park">Forest advanture park</option>
+                        <option value="Forest advanture park">Forest advanture park</option>
+                        <option value="Wildwood advanture">Wildwood advanture</option>
+                        <option value="Gir national park">Gir national park park</option>
+                         
+                        <option value="" style="font-weight:bold";>*Mountain Climbing</option>
+			<option value="Mount Shivlinga">Mount Shivlinga</option>
+                        <option value="Mount Kedar Dome">Mount Kedar Dome</option>
+                        <option value="Mount Nanda Devi Peak">Mount Nanda Devi Peak</option>
+                        <option value="Mount Satopanth">Mount Satopanth</option>
+                        <option value="Kang Yatse Peak">Kang Yatse Peak</option>
+                        <option value="Abu">Abu</option> 
+                                                                  <option value="" style="font-weight:bold";>*Beach Vacations</option>
+                                                                   <option value="Div">Div</option>
+                                                                   <option value="Somanath">Somanath</option>
+                                                                   <option value="Alappuzha Beach">Alappuzha Beach</option>
+                                                                   <option value="Pondicherry">Pondicherry</option>
+                                                                   <option value="The Palm Beaches">The Palm Beaches</option>
+
+                        <option value="" style="font-weight:bold";>*City Tours</option>
+                        <option value="Barcelona">Barcelona</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Dubai">Dubai</option>
+                        <option value="Ladakh">Ladakh</option>
+             
+		</select>
+		
+		<label for="dates">Dates of Travel:</label>
+		<input type="date" id="dates" name="dates" required>
+		
+		<label for="passengers">Number of Passengers:</label>
+		<input type="number" id="passengers" name="passengers" required>
+		
+		<label for="package">Package Type:</label>
+		<select id="package" name="package">
+			<option value="">Select Package</option>
+			<option value="Adventure">Adventure</option>
+			<option value="Luxury">Luxury</option>
+			<option value="Budget">Budget</option>
+		</select>
+		
+                <button class="btn">
+            <a href="Scaner.html">Book Now</a>
+
+            <span><i class="ri-arrow-right-long-line"></i></span>
+          </button>
+			</form>
+</body>
+</html>
